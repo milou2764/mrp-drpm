@@ -18,7 +18,7 @@ Set to true or false.
 -- voice3D - Enable/disable 3DVoice is enabled.
 GM.Config.voice3D                       = true
 -- AdminsCopWeapons - Enable/disable admins spawning with cop weapons.
-GM.Config.AdminsCopWeapons              = true
+GM.Config.AdminsCopWeapons              = false
 -- adminBypassJobCustomCheck - Enable/disable whether an admin can force set a job with whenever customCheck returns false.
 GM.Config.adminBypassJobRestrictions    = true
 -- Acts/Taunts - Enable/disable Taunts (e.g. act salute)
@@ -136,7 +136,7 @@ GM.Config.propertytax                   = false
 -- proppaying - Whether or not players should pay for spawning props.
 GM.Config.proppaying                    = false
 -- propspawning - Enable/disable props spawning. Applies to admins too.
-GM.Config.propspawning                  = true
+GM.Config.propspawning                  = false
 -- removeclassitems - Enable/disable shipments/microwaves/etc. removal when someone changes team.
 GM.Config.removeclassitems              = true
 -- removeondisconnect - Enable/disable shipments/microwaves/etc. removal when someone disconnects.
@@ -422,7 +422,6 @@ GM.Config.CategoryOverride = {
 
 -- The list of weapons admins spawn with, in addition to the default weapons, a job's weapons and GM.Config.AdminsCopWeapons.
 GM.Config.AdminWeapons = {
-    "weapon_keypadchecker",
 }
 
 -- These are the default laws, they're unchangeable in-game.
